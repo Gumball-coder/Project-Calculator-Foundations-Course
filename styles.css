@@ -3,17 +3,37 @@
     height: 400px;
     background-color: pink;
     border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    padding-top: 30px;
 }
 
 .screen{
     width: 240px;
     height: 60px;
     background-color: #008000;
+    position: relative;
     margin: 0 auto;
-    position: absolute;
-    margin-top: 30px;
     border-radius: 3px;
-    margin-left: 30px;
     color: rgb(200,200,200);
-    text-align: center;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 10px;
+    margin-bottom: 15px;
 }
+
+.button-row{
+    border:solid 2px black;
+    height: 60px;
+    position: relative;
+    width: 246px;
+    margin: 0 auto;
+    margin-top: 2px;   
+}
+
+.button{
+    width: 49px;
+    border: 1px solid black;
+    inline-size: auto;
+}
+
