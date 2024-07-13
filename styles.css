@@ -11,7 +11,7 @@
 .screen{
     width: 240px;
     height: 60px;
-    background-color: #008000;
+    background-color: green;
     position: relative;
     margin: 0 auto;
     border-radius: 3px;
@@ -23,17 +23,24 @@
 }
 
 .button-row{
-    border:solid 2px black;
     height: 60px;
     position: relative;
     width: 246px;
     margin: 0 auto;
-    margin-top: 2px;   
+    margin-top: 2px;  
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .button{
-    width: 49px;
     border: 1px solid black;
-    inline-size: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    left: 8px;
 }
-
